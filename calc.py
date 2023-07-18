@@ -34,7 +34,8 @@ def calculating():
         number_1=float(input("Podaj skladnik 1\n"))
         number_2=float(input("Podaj skladnik 2\n"))
         logging.info(f"Dziele liczbe {number_1} przez  {number_2}")
-        print(f"Wynik to: {number_1/number_2}")
+        result=number_1/number_2
+        print(f"Wynik to: {result}")
 
 
 
